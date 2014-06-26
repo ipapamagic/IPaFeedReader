@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6EB9A78A195BA6F00060C170 /* IPaFeedReaderUniversalFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EB9A797195BA6F00060C170 /* Build configuration list for PBXAggregateTarget "IPaFeedReaderUniversalFramework" */;
+			buildPhases = (
+				6EB9A789195BA6F00060C170 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = IPaFeedReaderUniversalFramework;
+			productName = IPaFeedParserUniversalFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6EB9A78F195BA6F00060C170 /* IPaFeedParser-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 6EB9A78E195BA6F00060C170 /* IPaFeedParser-Prefix.pch */; };
+		6EB9A791195BA6F00060C170 /* IPaFeedParser-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EB9A790195BA6F00060C170 /* IPaFeedParser-Info.plist */; };
+		6ECAD303195BA70B008DA470 /* IPaFeedReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD301195BA70B008DA470 /* IPaFeedReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECAD304195BA70B008DA470 /* IPaFeedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD302195BA70B008DA470 /* IPaFeedReader.m */; };
+		6ECAD313195BCC65008DA470 /* IPaFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD311195BCC65008DA470 /* IPaFeedParser.h */; };
+		6ECAD318195BCC72008DA470 /* IPaRSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD316195BCC72008DA470 /* IPaRSSParser.h */; };
+		6ECAD319195BCC72008DA470 /* IPaRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD317195BCC72008DA470 /* IPaRSSParser.m */; };
+		6ECAD31C195BCC7A008DA470 /* IPaRSS1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD31A195BCC7A008DA470 /* IPaRSS1Parser.h */; };
+		6ECAD31D195BCC7A008DA470 /* IPaRSS1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD31B195BCC7A008DA470 /* IPaRSS1Parser.m */; };
+		6ECAD320195BCC82008DA470 /* IPaAtomParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD31E195BCC82008DA470 /* IPaAtomParser.h */; };
+		6ECAD321195BCC82008DA470 /* IPaAtomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD31F195BCC82008DA470 /* IPaAtomParser.m */; };
+		6ECAD323195BEB50008DA470 /* IPaFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD322195BEB50008DA470 /* IPaFeedParser.m */; };
+		6ECAD329195C03FF008DA470 /* IPaFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD327195C03FF008DA470 /* IPaFeedItem.m */; };
+		6ECAD32C195C06CC008DA470 /* NSDate+IPaFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD32A195C06CC008DA470 /* NSDate+IPaFeedParser.h */; };
+		6ECAD32D195C06CC008DA470 /* NSDate+IPaFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD32B195C06CC008DA470 /* NSDate+IPaFeedParser.m */; };
+		6ECAD334195C0BE4008DA470 /* IPaFeedInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD332195C0BE4008DA470 /* IPaFeedInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECAD335195C0BE4008DA470 /* IPaFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAD333195C0BE4008DA470 /* IPaFeedInfo.m */; };
+		6ECAD394195C19BB008DA470 /* IPaFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAD324195C02EB008DA470 /* IPaFeedItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EB9A787195BA6F00060C170 /* IPaFeedReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPaFeedReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB9A78D195BA6F00060C170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB9A78E195BA6F00060C170 /* IPaFeedParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPaFeedParser-Prefix.pch"; sourceTree = "<group>"; };
+		6EB9A790195BA6F00060C170 /* IPaFeedParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPaFeedParser-Info.plist"; sourceTree = "<group>"; };
+		6ECAD301195BA70B008DA470 /* IPaFeedReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaFeedReader.h; sourceTree = "<group>"; };
+		6ECAD302195BA70B008DA470 /* IPaFeedReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaFeedReader.m; sourceTree = "<group>"; };
+		6ECAD311195BCC65008DA470 /* IPaFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaFeedParser.h; sourceTree = "<group>"; };
+		6ECAD316195BCC72008DA470 /* IPaRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaRSSParser.h; sourceTree = "<group>"; };
+		6ECAD317195BCC72008DA470 /* IPaRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaRSSParser.m; sourceTree = "<group>"; };
+		6ECAD31A195BCC7A008DA470 /* IPaRSS1Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaRSS1Parser.h; sourceTree = "<group>"; };
+		6ECAD31B195BCC7A008DA470 /* IPaRSS1Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaRSS1Parser.m; sourceTree = "<group>"; };
+		6ECAD31E195BCC82008DA470 /* IPaAtomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaAtomParser.h; sourceTree = "<group>"; };
+		6ECAD31F195BCC82008DA470 /* IPaAtomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaAtomParser.m; sourceTree = "<group>"; };
+		6ECAD322195BEB50008DA470 /* IPaFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaFeedParser.m; sourceTree = "<group>"; };
+		6ECAD324195C02EB008DA470 /* IPaFeedItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPaFeedItem.h; sourceTree = "<group>"; };
+		6ECAD327195C03FF008DA470 /* IPaFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaFeedItem.m; sourceTree = "<group>"; };
+		6ECAD32A195C06CC008DA470 /* NSDate+IPaFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IPaFeedParser.h"; sourceTree = "<group>"; };
+		6ECAD32B195C06CC008DA470 /* NSDate+IPaFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IPaFeedParser.m"; sourceTree = "<group>"; };
+		6ECAD332195C0BE4008DA470 /* IPaFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaFeedInfo.h; sourceTree = "<group>"; };
+		6ECAD333195C0BE4008DA470 /* IPaFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaFeedInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB9A783195BA6F00060C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB9A77D195BA6F00060C170 = {
+			isa = PBXGroup;
+			children = (
+				6EB9A78B195BA6F00060C170 /* IPaFeedReader */,
+				6EB9A788195BA6F00060C170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB9A788195BA6F00060C170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9A787195BA6F00060C170 /* IPaFeedReader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB9A78B195BA6F00060C170 /* IPaFeedReader */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAD301195BA70B008DA470 /* IPaFeedReader.h */,
+				6ECAD302195BA70B008DA470 /* IPaFeedReader.m */,
+				6ECAD325195C03BA008DA470 /* Feed */,
+				6ECAD315195BCC68008DA470 /* Parser */,
+				6EB9A78E195BA6F00060C170 /* IPaFeedParser-Prefix.pch */,
+				6EB9A790195BA6F00060C170 /* IPaFeedParser-Info.plist */,
+				6EB9A78C195BA6F00060C170 /* Supporting Files */,
+			);
+			path = IPaFeedReader;
+			sourceTree = "<group>";
+		};
+		6EB9A78C195BA6F00060C170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9A78D195BA6F00060C170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECAD315195BCC68008DA470 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAD32A195C06CC008DA470 /* NSDate+IPaFeedParser.h */,
+				6ECAD32B195C06CC008DA470 /* NSDate+IPaFeedParser.m */,
+				6ECAD311195BCC65008DA470 /* IPaFeedParser.h */,
+				6ECAD322195BEB50008DA470 /* IPaFeedParser.m */,
+				6ECAD316195BCC72008DA470 /* IPaRSSParser.h */,
+				6ECAD317195BCC72008DA470 /* IPaRSSParser.m */,
+				6ECAD31A195BCC7A008DA470 /* IPaRSS1Parser.h */,
+				6ECAD31B195BCC7A008DA470 /* IPaRSS1Parser.m */,
+				6ECAD31E195BCC82008DA470 /* IPaAtomParser.h */,
+				6ECAD31F195BCC82008DA470 /* IPaAtomParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		6ECAD325195C03BA008DA470 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAD332195C0BE4008DA470 /* IPaFeedInfo.h */,
+				6ECAD333195C0BE4008DA470 /* IPaFeedInfo.m */,
+				6ECAD324195C02EB008DA470 /* IPaFeedItem.h */,
+				6ECAD327195C03FF008DA470 /* IPaFeedItem.m */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EB9A784195BA6F00060C170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAD303195BA70B008DA470 /* IPaFeedReader.h in Headers */,
+				6ECAD394195C19BB008DA470 /* IPaFeedItem.h in Headers */,
+				6ECAD334195C0BE4008DA470 /* IPaFeedInfo.h in Headers */,
+				6ECAD318195BCC72008DA470 /* IPaRSSParser.h in Headers */,
+				6ECAD32C195C06CC008DA470 /* NSDate+IPaFeedParser.h in Headers */,
+				6ECAD320195BCC82008DA470 /* IPaAtomParser.h in Headers */,
+				6ECAD313195BCC65008DA470 /* IPaFeedParser.h in Headers */,
+				6ECAD31C195BCC7A008DA470 /* IPaRSS1Parser.h in Headers */,
+				6EB9A78F195BA6F00060C170 /* IPaFeedParser-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EB9A786195BA6F00060C170 /* IPaFeedReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB9A794195BA6F00060C170 /* Build configuration list for PBXNativeTarget "IPaFeedReader" */;
+			buildPhases = (
+				6EB9A782195BA6F00060C170 /* Sources */,
+				6EB9A783195BA6F00060C170 /* Frameworks */,
+				6EB9A784195BA6F00060C170 /* Headers */,
+				6EB9A785195BA6F00060C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPaFeedReader;
+			productName = IPaFeedParser;
+			productReference = 6EB9A787195BA6F00060C170 /* IPaFeedReader.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB9A77E195BA6F00060C170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "A Magic Stuio";
+				TargetAttributes = {
+					6EB9A786195BA6F00060C170 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6EB9A78A195BA6F00060C170 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 6EB9A781195BA6F00060C170 /* Build configuration list for PBXProject "IPaFeedReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EB9A77D195BA6F00060C170;
+			productRefGroup = 6EB9A788195BA6F00060C170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB9A786195BA6F00060C170 /* IPaFeedReader */,
+				6EB9A78A195BA6F00060C170 /* IPaFeedReaderUniversalFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB9A785195BA6F00060C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB9A791195BA6F00060C170 /* IPaFeedParser-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EB9A789195BA6F00060C170 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PRODUCT_NAME}\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB9A782195BA6F00060C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAD304195BA70B008DA470 /* IPaFeedReader.m in Sources */,
+				6ECAD323195BEB50008DA470 /* IPaFeedParser.m in Sources */,
+				6ECAD335195C0BE4008DA470 /* IPaFeedInfo.m in Sources */,
+				6ECAD329195C03FF008DA470 /* IPaFeedItem.m in Sources */,
+				6ECAD319195BCC72008DA470 /* IPaRSSParser.m in Sources */,
+				6ECAD31D195BCC7A008DA470 /* IPaRSS1Parser.m in Sources */,
+				6ECAD321195BCC82008DA470 /* IPaAtomParser.m in Sources */,
+				6ECAD32D195C06CC008DA470 /* NSDate+IPaFeedParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EB9A792195BA6F00060C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		6EB9A793195BA6F00060C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				METAL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		6EB9A795195BA6F00060C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = IPaFeedReader/Info.plist;
+				INSTALL_PATH = " $(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = IPaFeedReader;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		6EB9A796195BA6F00060C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = IPaFeedReader/Info.plist;
+				INSTALL_PATH = " $(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = IPaFeedReader;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		6EB9A798195BA6F00060C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = IPaFeedReader;
+			};
+			name = Debug;
+		};
+		6EB9A799195BA6F00060C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = IPaFeedReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB9A781195BA6F00060C170 /* Build configuration list for PBXProject "IPaFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB9A792195BA6F00060C170 /* Debug */,
+				6EB9A793195BA6F00060C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB9A794195BA6F00060C170 /* Build configuration list for PBXNativeTarget "IPaFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB9A795195BA6F00060C170 /* Debug */,
+				6EB9A796195BA6F00060C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB9A797195BA6F00060C170 /* Build configuration list for PBXAggregateTarget "IPaFeedReaderUniversalFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB9A798195BA6F00060C170 /* Debug */,
+				6EB9A799195BA6F00060C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB9A77E195BA6F00060C170 /* Project object */;
+}
