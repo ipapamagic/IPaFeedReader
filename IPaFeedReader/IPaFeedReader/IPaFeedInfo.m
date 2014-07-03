@@ -9,5 +9,11 @@
 #import "IPaFeedInfo.h"
 
 @implementation IPaFeedInfo
-
+-(NSDictionary *)others
+{
+    if (_others == nil) {
+        _others = @{};
+    }
+    return _others;
+}
 @end

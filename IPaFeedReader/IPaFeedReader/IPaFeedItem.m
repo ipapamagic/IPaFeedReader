@@ -9,4 +9,11 @@
 #import "IPaFeedItem.h"
 
 @implementation IPaFeedItem
+-(NSDictionary *)others
+{
+    if (_others == nil) {
+        _others = @{};
+    }
+    return _others;
+}
 @end

@@ -167,6 +167,11 @@
             
             self.currentItem.author = processText;
         }
+        else {
+            NSMutableDictionary *others = [self.currentItem.others mutableCopy];
+            others[qName] = processText;
+            self.currentItem.others = others;
+        }
     }
     else {
         //parse info
@@ -184,6 +189,11 @@
                     self.currentInfo.link = self.currentAttribute[@"href"]; // Can be added to MWFeedItem or MWFeedInfo
                 }
             }
+        }
+        else {
+            NSMutableDictionary *others = [self.currentInfo.others mutableCopy];
+            others[qName] = processText;
+            self.currentInfo.others = others;
         }
         
     }

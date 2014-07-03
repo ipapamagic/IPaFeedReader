@@ -18,4 +18,5 @@
 @property (nonatomic, copy) NSString *content;
 @property (nonatomic, copy) NSString *author;
 @property (nonatomic, strong) NSDate *updated;
+@property (nonatomic,strong) NSDictionary *others;
 @end

@@ -89,6 +89,11 @@
             
             self.currentItem.author = processText;
         }
+        else {
+            NSMutableDictionary *others = [self.currentItem.others mutableCopy];
+            others[qName] = processText;
+            self.currentItem.others = others;
+        }
     }
     else {
         //parse info
@@ -100,6 +105,11 @@
         }
         else if ([self.currentPath isEqualToString:@"channel/link"]) {
             self.currentInfo.link = processText;
+        }
+        else {
+            NSMutableDictionary *others = [self.currentInfo.others mutableCopy];
+            others[qName] = processText;
+            self.currentInfo.others = others;
         }
 
     }

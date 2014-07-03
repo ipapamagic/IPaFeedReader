@@ -145,8 +145,9 @@
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName
   namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
-
-    [currentParser didEndElement:elementName namespaceURI:namespaceURI qualifiedName:qName];
+    if (!([qName isEqualToString:@"rss"] || [qName isEqualToString:@"rdf:RDF"] || [qName isEqualToString:@"feed"])) {
+        [currentParser didEndElement:elementName namespaceURI:namespaceURI qualifiedName:qName];
+    }
 }
 
 //- (void)parser:(NSXMLParser *)parser foundAttributeDeclarationWithName:(NSString *)attributeName

@@ -93,6 +93,19 @@
             
             self.currentItem.author = processText;
         }
+        else if ([qName isEqualToString:@"category"]) {
+            NSMutableDictionary *others = [self.currentItem.others mutableCopy];
+            NSArray *list = others[qName];
+            NSMutableArray *mList = (list == nil)?[@[] mutableCopy]:[list mutableCopy];
+            [mList addObject:processText];
+            others[qName] = mList;
+            self.currentItem.others = others;
+        }
+        else {
+            NSMutableDictionary *others = [self.currentItem.others mutableCopy];
+            others[qName] = processText;
+            self.currentItem.others = others;
+        }
     }
     else {
         //parse info
@@ -104,6 +117,19 @@
         }
         else if ([self.currentPath isEqualToString:@"channel/link"]) {
             self.currentInfo.link = processText;
+        }
+        else if ([qName isEqualToString:@"category"]) {
+            NSMutableDictionary *others = [self.currentInfo.others mutableCopy];
+            NSArray *list = others[qName];
+            NSMutableArray *mList = (list == nil)?[@[] mutableCopy]:[list mutableCopy];
+            [mList addObject:processText];
+            others[qName] = mList;
+            self.currentInfo.others = others;
+        }
+        else {
+            NSMutableDictionary *others = [self.currentInfo.others mutableCopy];
+            others[qName] = processText;
+            self.currentInfo.others = others;
         }
     }
     [super didEndElement:elementName namespaceURI:namespaceURI qualifiedName:qName];        
