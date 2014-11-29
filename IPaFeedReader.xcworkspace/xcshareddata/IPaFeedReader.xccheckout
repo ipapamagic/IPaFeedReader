@@ -10,29 +10,29 @@
 	<string>IPaFeedReader</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>722EC8C9-2B7F-4884-B361-1B049B35A57C</key>
+		<key>7E877211C07EF277F0F59D1092D256A12D81FB0F</key>
 		<string>https://github.com/ipapamagic/IPaFeedReader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>IPaFeedReader.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>722EC8C9-2B7F-4884-B361-1B049B35A57C</key>
+		<key>7E877211C07EF277F0F59D1092D256A12D81FB0F</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ipapamagic/IPaFeedReader.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>722EC8C9-2B7F-4884-B361-1B049B35A57C</string>
+	<string>7E877211C07EF277F0F59D1092D256A12D81FB0F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>722EC8C9-2B7F-4884-B361-1B049B35A57C</string>
+			<string>7E877211C07EF277F0F59D1092D256A12D81FB0F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IPaFeedReader</string>
 		</dict>
